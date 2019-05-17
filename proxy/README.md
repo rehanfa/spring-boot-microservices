@@ -20,3 +20,14 @@ Endpoint Detail
 - Endpoint /public/api/name/{name} return Suburb detail using name
 - Endpoint /private/api/add adds suburb detail
 
+
+## Compile, Test, Run and Packaging
+
+- Compile: mvn compile
+
+- Test: mvn test
+
+- Packaging: mvn package, compiled jar in *target/* folder
+
+- Run using jar: java -jar proxy-0.0.1-SNAPSHOT.jar from *target/* folder
+

@@ -33,4 +33,24 @@ Endpoint Detail
         "longitude": 144.35
     }
 }
+
+
+## Requirements
+
+- Implemented and tested using Java 8
+
+- Tests require JUnit and Mockito
+
+- Project dependencies and compiling managed by Maven
+
+
+## Compile, Test, Run and Packaging
+
+- Compile: mvn compile
+
+- Test: mvn test
+
+- Packaging: mvn package, compiled jar in *target/* folder
+
+- Run using jar: java -jar solution-0.0.1-SNAPSHOT.jar from *target/* folder
  

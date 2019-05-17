@@ -9,5 +9,11 @@ Description
 - Proxy api serves as api gateway so user can access public and private endpoints.
 - Discovery server is EurekaServer to register EurekaClients.
 - All projects are Spring Boot maven based projects.
+- Run all these project in this order. 
+    1. Discovery 
+    2. Security
+    3. Solution
+    4. Proxy
+
 
 
