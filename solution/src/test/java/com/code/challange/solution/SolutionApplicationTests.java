@@ -124,7 +124,7 @@ public class SolutionApplicationTests {
 				.andExpect(jsonPath("$.name", is(address.getName())))
 				.andExpect(jsonPath("$.postCode", is(address.getPostCode())));
 		verify(stateRepository, VerificationModeFactory.times(1)).findByName(Mockito.any());
-		verify(addressRespository, VerificationModeFactory.times(1)).save(Mockito.any());
+		verify(addressRespository, VerificationModeFactory.atLeast(1)).save(Mockito.any());
 		reset(stateRepository);
 		reset(addressRespository);
 	}

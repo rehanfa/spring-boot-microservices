@@ -6,7 +6,7 @@ Description
 -----------
 - Proxy api provides endpoint to login user
 - Proxy api provides endpoints to search suburb by post code and name, and also allows user to add new suburb details
-- Proxy api runs on port 8091.
+- Proxy api runs on port 8081.
 - Proxy api run as a EurekaClient and serve as api gateway.
 - Proxy api contains public and private endpoints, where private endpoint requires JWT to access. Header value Authorization: Bearer <JWT Token> is required for private endpoint.
 - Spring security has been used for authentication and authorisation.

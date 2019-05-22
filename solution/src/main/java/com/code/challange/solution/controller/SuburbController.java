@@ -51,6 +51,7 @@ public class SuburbController {
 			State state = stateRepository.findByName(address.getState().getName());
 			if (state != null) {
 				address.setState(state);
+				addressRespository.save(address);
 			} else {
 				addressRespository.save(address);
 			}
